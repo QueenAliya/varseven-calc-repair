@@ -1,4 +1,5 @@
 package test;
+<<<<<<< HEAD
 
 import org.junit.Test;
 
@@ -8,6 +9,12 @@ import static org.junit.Assert.*;
 
 public class StrippingPaintTest {
 
+=======
+import org.junit.Test;
+import varseven_calc.StrippingPaint;
+import static org.junit.Assert.*;
+public class StrippingPaintTest {
+>>>>>>> 99ad449ed4177c6000b46fb0fcdd23c8a91ab08e
     @Test
     public void testGetMetr() {
         StrippingPaint paint = new StrippingPaint();
@@ -16,7 +23,10 @@ public class StrippingPaintTest {
         double actual = paint.getMetr();
         assertEquals(expected, actual, 0.01);
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99ad449ed4177c6000b46fb0fcdd23c8a91ab08e
     @Test
     public void testSetMetr() {
         StrippingPaint paint = new StrippingPaint();
@@ -25,7 +35,10 @@ public class StrippingPaintTest {
         double actual = paint.getMetr();
         assertEquals(expected, actual, 0.01);
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99ad449ed4177c6000b46fb0fcdd23c8a91ab08e
     @Test
     public void testGeneration() {
         StrippingPaint paint = new StrippingPaint();
