@@ -34,8 +34,5 @@ public class CeilingInsulationTest {
         double actual = insulation.getCost();
         assertEquals(expected, actual, 0.01);
     }
-<<<<<<< HEAD
 }
-=======
 }
->>>>>>> 99ad449ed4177c6000b46fb0fcdd23c8a91ab08e
